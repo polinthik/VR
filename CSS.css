@@ -13,7 +13,7 @@ h1{font-size: 50px;
     padding-left:50px;
     text-stroke: 10px #7B68EE;
     margin: 0px;
-    background-image: url(https://mail.yandex.ru/message_part/лого+ассоциации+новый.png?_uid=1895197903&name=лого+ассоциации+новый.png&hid=1.2&ids=189151184349561208&no_disposition=y&exif_rotate=y);
+    background-image: url("logo.png");
     justify-content:space-around;
     background-repeat: no-repeat;
     justify-content: right;
