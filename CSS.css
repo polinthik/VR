@@ -58,6 +58,7 @@ button {
 }
 
 nav{
+
     color: ;
     background-color: #e6e6fa;
     padding: 5px 0px 5px 15px;
@@ -66,6 +67,7 @@ nav{
 }
 
 .nav-link{
+    border-top: 5px solid none;
     display: inline-block;
     position: relative;
     cursor: pointer;
