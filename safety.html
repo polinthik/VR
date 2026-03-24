@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Проверка пароля</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="cyber-bg"></div>
+<div class="grid-overlay"></div>
+<div class="scan-lines"></div>
+<div class="noise"></div>
+
+<main class="container">
+    <a href="index.html" class="back-link"><i class="fas fa-arrow-left"></i> Назад</a>
+    <h1 class="neon-title" style="font-size: 2.5rem;">
+        <i class="fas fa-shield-alt"></i> ПРОВЕРКА БЕЗОПАСНОСТИ
+    </h1>
+
+    <div class="checker-panel">
+        <div class="input-group">
+            <label>Введите пароль для проверки:</label>
+            <input type="password" id="passwordInput" placeholder="Введите пароль...">
+            <button class="cyber-btn" id="checkBtn"><i class="fas fa-search"></i> Проверить</button>
+        </div>
+
+        <div class="result-panel" id="resultPanel" style="display: none;">
+            <div class="strength-meter">
+                <div class="strength-label">Надёжность:</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="strengthFill" style="width: 0%"></div>
+                </div>
+                <div class="strength-text" id="strengthText"></div>
+            </div>
+            <div class="details" id="details"></div>
+            <div class="time-info" id="timeInfo"></div>
+        </div>
+    </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
